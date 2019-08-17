@@ -2,6 +2,8 @@ module.exports = {
   root: true,
   extends: 'rallycoding',
   parser: 'babel-eslint',
-  rules:
-  {'react/require-extension': 'off'}
+  rules: {
+    'react/require-extension': 'off',
+    'no-underscore-dangle': 'off'
+  }
 };
